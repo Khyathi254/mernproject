@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

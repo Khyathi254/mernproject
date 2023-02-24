@@ -1,0 +1,17 @@
+GET http://localhost:3001/todos
+
+###
+
+POST http://localhost:3001/todo/new 
+Content-Type: application/json
+{
+    "text":"having my lunch"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/63f89ea6ad7296e171c173b2
+
+### 
+ 
+PUT http://localhost:3001/todos/complete/63f89ea6ad7296e171c173b2
